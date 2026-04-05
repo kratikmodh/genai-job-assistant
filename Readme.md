@@ -139,7 +139,7 @@ Generates:
 ## 🔗 Related Projects
 
 * RAG Backend (Node): <https://github.com/kratikmodh/rag-node-backend>
-* RAG Pipeline (Python): (add your repo link)
+* RAG Pipeline (Python): <https://github.com/kratikmodh/rag-python-pipeline>
 
 ---
 
