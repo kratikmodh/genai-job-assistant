@@ -1,10 +1,22 @@
-# 🚀 AI Resume Analyzer & Job Assistant (Full Stack GenAI App)
+# 🚀 AI Resume Analyzer & Job Assistant (Full Stack GenAI Application)
 
 ## 🧠 Overview
 
-This project is a **full-stack AI-powered application** designed to help users analyze resumes, evaluate job descriptions, and prepare for interviews using Generative AI.
+This project is a **full-stack AI-powered application** that helps users analyze resumes, evaluate job descriptions, and prepare for interviews using Generative AI.
 
-It demonstrates how to integrate Large Language Models (LLMs) into a real-world system with backend APIs, authentication, and document processing.
+It demonstrates how to integrate **Large Language Models (LLMs)** into a real-world system with backend APIs, authentication, and document processing.
+
+---
+
+## 🎥 Demo Video
+
+👉 *(Add your video link here)*
+
+Example:
+
+```md
+[Watch Demo](https://drive.google.com/file/d/139tW-lea__10fa3t1dulYo-R0ekOn0w6/view?usp=sharing)
+```
 
 ---
 
@@ -27,7 +39,26 @@ This project solves these challenges using **AI-driven insights and automation**
 * 📊 Skill gap detection
 * 🎤 Interview question generation
 * 📑 ATS-friendly resume generation
-* 🔐 Authentication (JWT-based)
+* 🔐 JWT-based authentication
+
+---
+
+## 🔄 Application Flow
+
+```text
+User uploads resume
+        ↓
+Backend processes file
+        ↓
+AI analyzes resume content
+        ↓
+Compares with job description
+        ↓
+Generates:
+- Skill gaps
+- Suggestions
+- Interview questions
+```
 
 ---
 
@@ -49,7 +80,7 @@ RAG Pipeline (Context-aware responses)
 ## 🤖 AI Capabilities
 
 * Resume evaluation using LLM
-* Job description matching
+* Job description comparison
 * Personalized feedback generation
 * Dynamic interview question generation
 
@@ -58,8 +89,8 @@ RAG Pipeline (Context-aware responses)
 ## 🔮 Future Enhancements
 
 * 🔍 RAG-based resume querying
-* 📚 Document-based chat system
-* 🔗 Integration with vector databases (ChromaDB)
+* 📚 Chat with documents
+* 🔗 Vector database integration (ChromaDB / FAISS)
 * 🤖 Multi-model support (OpenAI, Mistral)
 
 ---
@@ -77,22 +108,23 @@ RAG Pipeline (Context-aware responses)
 ## 📂 Project Structure
 
 ```text
-backend/
- ├── routes/
- ├── controllers/
- ├── models/
- ├── services/
-
-frontend/
- ├── components/
- ├── pages/
+project-root/
+ ├── frontend/
+ │    ├── components/
+ │    ├── pages/
+ │
+ ├── backend/
+ │    ├── routes/
+ │    ├── controllers/
+ │    ├── models/
+ │    ├── services/
 ```
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Installation & Setup
 
-### Backend
+### 🔹 Backend
 
 ```bash
 cd backend
@@ -100,7 +132,9 @@ npm install
 npm start
 ```
 
-### Frontend
+---
+
+### 🔹 Frontend
 
 ```bash
 cd frontend
@@ -120,19 +154,26 @@ System extracts skills
 AI compares with job description
         ↓
 Generates:
-- Skill gaps
+- Skill gap report
 - Suggestions
 - Interview questions
 ```
 
 ---
 
+## 🧪 Testing
+
+* Use Postman for backend APIs
+* Use browser for frontend UI
+
+---
+
 ## 🧠 Key Learnings
 
-* Built full-stack AI application
+* Built a full-stack AI application
 * Integrated LLM into backend systems
-* Implemented authentication & APIs
-* Designed scalable AI architecture
+* Implemented authentication & API design
+* Designed scalable architecture for AI systems
 
 ---
 
@@ -151,4 +192,6 @@ Kratik Modh
 
 ## ⭐ Final Note
 
-This project represents a **real-world AI product architecture**, combining backend engineering, full-stack development, and Generative AI into a single system.
+This project represents a **real-world AI system architecture**, combining backend engineering, full-stack development, and Generative AI.
+
+It serves as a strong foundation for building **RAG-based and agentic AI systems** in production environments.
