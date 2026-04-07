@@ -10,13 +10,7 @@ It demonstrates how to integrate **Large Language Models (LLMs)** into a real-wo
 
 ## 🎥 Demo Video
 
-👉 *(https://drive.google.com/file/d/139tW-lea__10fa3t1dulYo-R0ekOn0w6/view?usp=sharing)*
-
-Example:
-
-```md
-[Watch Demo](https://drive.google.com/file/d/139tW-lea__10fa3t1dulYo-R0ekOn0w6/view?usp=sharing)
-```
+👉 *https://drive.google.com/file/d/139tW-lea__10fa3t1dulYo-R0ekOn0w6/view?usp=sharing*
 
 ---
 
